@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/37d73796be.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+           <input id="result" type="text" placeholder="0">
+           <button onclick="allclear()">CL</button>
+                <button onclick="removeone()">DEL</button>
+                <button onclick="displayname('%')">%</button>
+                <button onclick="displayname('/')">/</button>
+                <button onclick="displayname(7)">7</button>
+                <button onclick="displayname(8)">8</button>
+                <button onclick="displayname(9)">9</button>
+                <button onclick="displayname('*')">*</button>
+                <button onclick="displayname(4)">4</button>
+                <button onclick="displayname(5)">5</button>
+                <button onclick="displayname(6)">6</button>
+                <button onclick="displayname('-')">-</button>
+                <button onclick="displayname(1)">1</button>
+                <button onclick="displayname(2)">2</button>
+                <button onclick="displayname(3)">3</button>
+                <button onclick="displayname('+')">+</button>
+                <button onclick="displayname(0)">0</button>
+                <button onclick="displayname('.')">.</button>
+                <button onclick="evaluateExpr()" class="equal">=</button>
+        </div>
+        </div>
+
+    </div>
+    <!-- <div class="calculator">
+        <input id="result" type="text" placeholder="0">
+        <div class="container">
+            <div>
+    
+                <button onclick="allclear()">CLEAR</button>
+                <button onclick="removeone()"><i class="fa-solid fa-delete-left"></i></button>
+                <button onclick="displayname('%')">%</button>
+                <button onclick="displayname('/')">/</button>
+            </div>
+    
+            <div>
+    
+                <button onclick="displayname(7)">7</button>
+                <button onclick="displayname(8)">8</button>
+                <button onclick="displayname(9)">9</button>
+                <button onclick="displayname('*')">*</button>
+            </div>
+    
+            <div>
+    
+                <button onclick="displayname(4)">4</button>
+                <button onclick="displayname(5)">5</button>
+                <button onclick="displayname(6)">6</button>
+                <button onclick="displayname('-')">-</button>
+            </div>
+    
+            <div>
+    
+                <button onclick="displayname(1)">1</button>
+                <button onclick="displayname(2)">2</button>
+                <button onclick="displayname(3)">3</button>
+                <button onclick="displayname('+')">+</button>
+            </div>
+    
+            <div>
+    
+                <button onclick="displayname(00)">00</button>
+                <button onclick="displayname(0)">0</button>
+                <button onclick="displayname('.')">.</button>
+                <button onclick="evaluateExpr()" class="equals">=</button>
+            </div>
+        </div class="container">
+
+
+    </div> -->
+</body>
+<script src="./calc.js"></script>
+</html>
